@@ -10166,11 +10166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket_Elevators_API\\RocketApi.csproj",
+      "projectUniqueName": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket-Elevators-Foundation-.NET\\RocketApi.csproj",
       "projectName": "RocketApi",
-      "projectPath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket_Elevators_API\\RocketApi.csproj",
+      "projectPath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket-Elevators-Foundation-.NET\\RocketApi.csproj",
       "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket_Elevators_API\\obj\\",
+      "outputPath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket-Elevators-Foundation-.NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config"

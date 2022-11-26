@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "++mvr+Zg7ATLfQkdtq9J72GwFzmHgillI1VJ5wPDv2LrKqUadPkjnoRBIVBw5j5oi3ZdTBzJtcuIA9M+G5McNQ==",
+  "dgSpecHash": "gmxwIzZD9m7wb9KzXS5zIs939YyNkOyx5FJXB8wTqyQMTOvHEZZg4IZSA07RiqDQln5s1IcaSJYaqbPHkSXwqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket_Elevators_API\\RocketApi.csproj",
+  "projectFilePath": "C:\\Users\\stefa\\Desktop\\Codeboxx\\Odyssey\\dotnetRocket1\\Rocket-Elevators-Foundation-.NET\\RocketApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\stefa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\stefa\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -16,6 +16,8 @@ namespace RocketApi.Models
         public DbSet<Column> columns { get; set; } = null!;
         public DbSet<batteries> batteries { get; set; } = null!;
 
+        public DbSet<Intervention> interventions { get; set; } = null!;
+
         public DbSet<Customer> Customers { get; set; } = null!;
         public virtual DbSet<Building> Buildings { get; set; } = null!;
         public virtual DbSet<BuildingDetail> BuildingDetails { get; set; } = null!;
@@ -253,7 +255,40 @@ namespace RocketApi.Models
                  entity.Property(e => e.status)
                     .HasMaxLength(255)
                     .HasColumnName("status");
-            });   
+            });  
+             modelBuilder.Entity<Intervention>(entity =>
+            {
+                entity.ToTable("interventions");
+
+                entity.HasIndex(e => e.Id, "id");
+
+                entity.Property(e => e.Author).HasColumnName("Author");
+
+                entity.Property(e => e.CustomerID).HasColumnName("CustomerID");
+                
+                entity.Property(e => e.BuildingID).HasColumnName("BuildingID");
+
+                entity.Property(e => e.BatteryID).HasColumnName("BatteryID");
+
+                entity.Property(e => e.ColumnID).HasColumnName("ColumnID");
+
+                entity.Property(e => e.ElevatorID).HasColumnName("ElevatorID");
+
+                entity.Property(e => e.EmployeeID).HasColumnName("EmployeeID");
+
+                entity.Property(e => e.StartDate).HasColumnName("StartDate");
+
+                entity.Property(e => e.EndDate).HasColumnName("EndDate");
+
+                entity.Property(e => e.Result).HasColumnName("Result");
+
+                entity.Property(e => e.Report).HasColumnName("Report");
+
+                entity.Property(e => e.Status).HasColumnName("Status");
+
+
+
+            });    
 
 
 }}}
